@@ -1,6 +1,6 @@
 # Wire Mock Server
 
-## Usage
+## Get Started
 - Access the [official website](http://wiremock.org/docs/running-standalone/), and click on "_downloaded the standalone JAR_" to download the standalone wire mock jar.
 
 - Run with: 
@@ -9,6 +9,9 @@ java -jar wiremock-standalone-[version].jar --port [port]
 ```  
 - I'm using version: 2.16.0 and port: 9090
 
+- Clone this repository, and put it at the **same** folder where you putted the standalone wire mock jar. 
+
+## Usage
 _Usando CPF 49818430620_
 
 **[GET] LISTAR CONTAS BY CPF**  
