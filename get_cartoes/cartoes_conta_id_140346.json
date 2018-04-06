@@ -1,0 +1,59 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/cartoes?idConta=148839"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": {
+            "number": 0,
+            "size": 50,
+            "totalPages": 1,
+            "numberOfElements": 1,
+            "totalElements": 1,
+            "firstPage": false,
+            "hasPreviousPage": false,
+            "hasNextPage": false,
+            "hasContent": true,
+            "first": true,
+            "last": true,
+            "nextPage": 0,
+            "previousPage": 0,
+            "content": [
+              {
+                "id": 148839,
+                "flagTitular": 1,
+                "idPessoa": 2647,
+                "sequencialCartao": 1,
+                "idConta": 140346,
+                "idStatus": 2,
+                "dataStatus": "2015-09-24T10:30:00.000Z",
+                "idEstagio": 4,
+                "dataEstagio": "2015-10-06T08:25:00.000Z",
+                "numeroBin": 536969,
+                "numeroCartao": "5369********5411",
+                "numeroCartaoHash": -5876914734360040000,
+                "numeroCartaoCriptografado": "B910BDFF8BA76FB1D9BA0EF4919C3546",
+                "dataEmissao": "2015-09-24T10:30:00.000Z",
+                "dataValidade": "2020-09-30T00:00:00.000Z",
+                "cartaoVirtual": 0,
+                "impressaoAvulsa": null,
+                "dataImpressao": "2015-10-06T08:25:00.000Z",
+                "nomeArquivoImpressao": "0007061015",
+                "idProduto": 7,
+                "nomeImpresso": "ABADIA ROSA RAMOS",
+                "codigoDesbloqueio": "5411",
+                "tipoPortador": "T",
+                "idStatusCartao": 2,
+                "dataStatusCartao": "2015-09-24T10:30:00.000Z",
+                "idEstagioCartao": 4,
+                "dataEstagioCartao": "2015-10-06T08:25:00.000Z",
+                "dataGeracao": "2015-09-24T10:30:00.000Z",
+                "flagVirtual": 0,
+                "flagImpressaoOrigemComercial": null,
+                "arquivoImpressao": "0007061015"
+              }
+            ]
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "request": {
+      "method": "GET",
+      "url": "/api/pessoas/2647"
+  },
+  "response": {
+      "status": 200,
+      "jsonBody": {
+        "id": 2647,
+        "nome": "ABADIA ROSA RAMOS",
+        "tipo": "PF",
+        "cpf": "49818430620",
+        "cnpj": "",
+        "dataNascimento": "1940-06-23T00:00:00.000Z",
+        "sexo": "F",
+        "numeroIdentidade": "",
+        "orgaoExpedidorIdentidade": "",
+        "unidadeFederativaIdentidade": "",
+        "dataEmissaoIdentidade": null
+      }
+  }
+}

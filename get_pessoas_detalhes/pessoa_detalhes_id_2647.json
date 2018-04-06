@@ -1,0 +1,22 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/pessoas-detalhes/2647"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": {
+            "idPessoa": 2647,
+            "nomeMae": "MARIA ROSA",
+            "idEstadoCivil": null,
+            "idProfissao": null,
+            "idNaturezaOcupacao": null,
+            "idNacionalidade": null,
+            "numeroBanco": 121,
+            "numeroAgencia": 1,
+            "numeroContaCorrente": "9837693",
+            "email": "",
+            "nomeEmpresa": ""
+          }
+    }
+}

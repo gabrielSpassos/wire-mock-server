@@ -1,0 +1,10 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/info"
+    },
+    "response": {
+        "status": 200,
+        "body": "Author: Gabriel Passos\n"
+    }
+}
