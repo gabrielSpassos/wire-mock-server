@@ -11,7 +11,21 @@ java -jar wiremock-standalone-[version].jar --port [port]
 ```  
 - I'm using version: 2.16.0 and port: 9090
 
-## Usage
+## Getting Mock Data with Node Application
+
+- Run with: 
+```
+nodemon
+```
+
+**[GET] PESSOA BY ID**
+>
+http://localhost:4500/api/v1/people/2647
+
+**Check the console !!**
+This way you can see that i'm getting the data from one application (wire-mock), with a request from a completely separate node application :D
+
+## Usage Of Wire Mock
 
 _Usando CPF 49818430620_
 
