@@ -23,7 +23,7 @@ nodemon
 http://localhost:4500/api/v1/people/2647
 
 **Check the console !!**
-This way you can see that i'm getting the data from one application (wire-mock), with a request from a completely separate node application :D
+This way you can see that i'm getting the data from one application (wire-mock), with a request from a completely separate node application :thumbsup: :smile:
 
 ## Usage Of Wire Mock
 
