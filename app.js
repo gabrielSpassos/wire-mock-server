@@ -8,13 +8,13 @@ app.get('/', function (req, res) {
     console.log('Olar');
 });
 
-app.get('/api/v1/people', function (req, res) {
+app.get('/api/v1/people/2647', function (req, res) {
     request('http://localhost:9090/api/pessoas/2647', function (error, response, body) {
-        console.log(' ------- ')
-        console.log('error:', error); // Print the error if one occurred
-        console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
-        console.log('body:', body); // Print the HTML for the Google homepage.
-      });
+        if(!error && response.statusCode == 200){
+            console.log(' ------- ')
+            console.log('body:', body);
+        }
+    });
 });
 
 app.listen(4500, function () { // Inicia uma requisição do Express
