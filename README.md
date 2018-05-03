@@ -52,6 +52,27 @@ http://localhost:9090/api/cartoes?idConta=148839
 http://localhost:9090/api/cartoes?idConta=261420
 ```
 
+**[POST] PESSOA BY ID** 
+```
+http://localhost:9090/api/pessoas
+```
+_BODY_
+
+```javascript
+{
+	"id": 2648,
+	"nome": "RENATO RYAN RENAN CAVALCANTI",
+	"tipo": "PF",
+	"cpf": "58038373006",
+	"cnpj": "",
+	"dataNascimento": "1985-03-19T00:00:00.000Z",
+	"sexo": "M",
+	"numeroIdentidade": "27.476.780-6",
+	"orgaoExpedidorIdentidade": "SSP",
+	"unidadeFederativaIdentidade": "RS"
+}
+```
+
 **[PATCH] PESSOA BY ID** 
 ```
 http://localhost:9090/api/pessoas/2647
