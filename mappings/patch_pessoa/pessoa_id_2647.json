@@ -1,0 +1,29 @@
+{
+"request": {
+    "method": "PATCH",
+    "url": "/api/pessoas/2647",
+    "bodyPatterns" : [{
+        "equalToJson" : "{\"nome\": \"ABADIA ROSA RAMOS\", \"numeroIdentidade\": \"442862337\",\"orgaoExpedidorIdentidade\": \"SSP\",\"unidadeFederativaIdentidade\": \"SC\"}"
+      }]
+},
+"response": {
+    "status": 200,
+    "headers":
+        {
+          "Content-Type" : "application/json"
+        },
+    "jsonBody": {
+        "id": 2647,
+        "nome": "ABADIA",
+        "tipo": "PF",
+        "cpf": "000",
+        "cnpj": "",
+        "dataNascimento": "1940-06-23T00:00:00.000Z",
+        "sexo": "F",
+        "numeroIdentidade": "442862337",
+        "orgaoExpedidorIdentidade": "SSP",
+        "unidadeFederativaIdentidade": "SC",
+        "dataEmissaoIdentidade": null
+    }
+}
+}

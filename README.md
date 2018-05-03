@@ -51,3 +51,18 @@ http://localhost:9090/api/cartoes?idConta=2647
 http://localhost:9090/api/cartoes?idConta=148839
 http://localhost:9090/api/cartoes?idConta=261420
 ```
+
+**[PATCH] PESSOA BY ID** 
+```
+http://localhost:9090/api/pessoas/2647
+```
+_BODY_
+
+```javascript
+{
+  "nome": "ABADIA ROSA RAMOS",
+  "numeroIdentidade": "442862337",
+  "orgaoExpedidorIdentidade": "SSP",
+  "unidadeFederativaIdentidade": "SC"
+}
+```

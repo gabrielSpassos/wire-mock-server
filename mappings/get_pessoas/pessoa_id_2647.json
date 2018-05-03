@@ -5,6 +5,10 @@
   },
   "response": {
       "status": 200,
+      "headers":
+        {
+          "Content-Type" : "application/json"
+        },
       "jsonBody": {
         "id": 2647,
         "nome": "ABADIA ROSA RAMOS",
